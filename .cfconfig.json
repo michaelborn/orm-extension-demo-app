@@ -1,4 +1,5 @@
 {
+	"adminPassword" : "hibernate",
 	"cacheDefaultObject":"coldbox",
     "debuggingEnabled":true,
     "debuggingReportExecutionTimes":false,

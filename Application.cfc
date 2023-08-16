@@ -66,7 +66,21 @@ component {
 	 * ORM + Datasource Settings
 	 * --------------------------------------------------------------------------
 	 */
-	this.datasource = "coldbox";
+	this.datasources["tmdb"] = {
+		class           : "org.h2.Driver",
+		bundleName      : "org.lucee.h2",
+		bundleVersion   : "2.1.214.0001L",
+		connectionString: "jdbc:h2:./db/tmdb;MODE=MySQL",
+		username        : "",
+		password        : "",
+		
+		                        // optional settings
+		connectionLimit :-1,     // default:-1
+		liveTimeout     :15,     // default: -1; unit: minutes
+		alwaysSetTimeout:true,   // default: false
+		validate        :false  // default: false
+	};
+	this.datasource = "tmdb";
 
 	/**
 	 * Fires when the application starts
