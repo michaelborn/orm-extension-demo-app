@@ -28,7 +28,7 @@
 			<!---Brand --->
 			<a class="w-60 p-2 align-middle font-extrabold text-2xl" href="#event.buildLink( 'main' )#">
 				<span class="mr-2 inline-block leading-none">
-					<span class="align-text-top inline-block">#embedSVG( '/resources/assets/icons/film.svg' )#</span>
+					<span class="align-text-top inline-block">#embedIcon( "film" )#</span>
 				</span>MovieMe
 			</a>
 
@@ -37,11 +37,11 @@
 					Button goes here!
 				-->
 				<a class="block p-2 md:hidden text-white" href="##" onclick="document.getElementById('mainMenu').classList.toggle('hidden')">
-					#embedSVG( '/resources/assets/icons/menu.svg' )#
+					#embedIcon( "menu" )#
 				</a>
 				<ul class="flex-col md:flex-row list-none justify-end hidden md:flex absolute right-0 top-16 md:static bg-red-700 text-white" id="mainMenu">
-					<li class="block"><a href="/genre" class="py-2 px-4 md:py-4 block md:hover:bg-white md:hover:text-gray-900 font-bold">Movies</a></li>
-					<li class="block"><a href="/movies" class="py-2 px-4 md:py-4 block md:hover:bg-white md:hover:text-gray-900 font-bold">Genres</a></li>
+					<li class="block"><a href="/movies" class="py-2 px-4 md:py-4 block md:hover:bg-white md:hover:text-gray-900 font-bold">Movies</a></li>
+					<li class="block"><a href="/genre" class="py-2 px-4 md:py-4 block md:hover:bg-white md:hover:text-gray-900 font-bold">Genres</a></li>
 					<li class="block"><a href="/production-companies" class="py-2 px-4 md:py-4 block md:hover:bg-white md:hover:text-gray-900 font-bold">Production Companies</a></li>
 				</ul>
 			</nav>

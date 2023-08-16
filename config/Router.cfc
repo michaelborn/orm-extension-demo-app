@@ -21,6 +21,8 @@ component {
 		 * Here is where you can register the routes for your web application!
 		 * Go get Funky!
 		 */
+		resources( "movies" );
+		resources( "genres" );
 
 		// A nice healthcheck route example
 		route( "/healthcheck", function( event, rc, prc ){
