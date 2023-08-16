@@ -5,9 +5,12 @@
     "web":{
         "rewrites":{
             "enable":"true"
+        },
+        "HTTP":{
+            "port":"38201"
         }
     },
     "env":{
-        "lucee-extensions":"465E1E35-2425-4F4E-8B3FAB638BD7280A;version=2.1.214.0001L"
+        "lucee-extensions":"D062D72F-F8A2-46F0-8CBC91325B2F067B;version=6.2.0,465E1E35-2425-4F4E-8B3FAB638BD7280A;version=2.1.214.0001L"
     }
 }

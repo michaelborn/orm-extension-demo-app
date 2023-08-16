@@ -1,1 +1,5 @@
-<!--- All methods in this helper will be available in all handlers,views & layouts --->
+<cfscript>
+    function embedSVG( required string src ){
+        return fileRead( expandPath( arguments.src ) );
+    }
+</cfscript>
