@@ -21,6 +21,7 @@ component {
 		 * Here is where you can register the routes for your web application!
 		 * Go get Funky!
 		 */
+		route( "/movies/dashboard" ).withHandler( "Movies" ).toAction( "dashboard" );
 		resources( "movies" );
 		resources( "genres" );
 
